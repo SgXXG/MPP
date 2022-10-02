@@ -1,0 +1,15 @@
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\bin\Debug\net6.0\MPP_Lab2_2.exe
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\bin\Debug\net6.0\MPP_Lab2_2.deps.json
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\bin\Debug\net6.0\MPP_Lab2_2.runtimeconfig.json
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\bin\Debug\net6.0\MPP_Lab2_2.dll
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\bin\Debug\net6.0\MPP_Lab2_2.pdb
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.csproj.AssemblyReference.cache
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.AssemblyInfoInputs.cache
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.AssemblyInfo.cs
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.csproj.CoreCompileInputs.cache
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.dll
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\refint\MPP_Lab2_2.dll
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.pdb
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\MPP_Lab2_2.genruntimeconfig.cache
+D:\!Studing\3 Course\5 Sem\СПП\Labs\lab2\MPP_Lab2_2\obj\Debug\net6.0\ref\MPP_Lab2_2.dll
