@@ -1,0 +1,15 @@
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1.exe
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1.deps.json
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1.runtimeconfig.json
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1.dll
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1.pdb
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.csproj.AssemblyReference.cache
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.GeneratedMSBuildEditorConfig.editorconfig
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.AssemblyInfoInputs.cache
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.AssemblyInfo.cs
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.csproj.CoreCompileInputs.cache
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.dll
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\refint\MPP_Lab1.dll
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.pdb
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1.genruntimeconfig.cache
+E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\ref\MPP_Lab1.dll
