@@ -25,7 +25,6 @@ D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_1.runtimeconfig.json
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_1.exe
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.exe
-D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\NLog.config
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.deps.json
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.runtimeconfig.json
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.dll

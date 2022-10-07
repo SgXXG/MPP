@@ -17,7 +17,6 @@ E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\NLog.dll
 E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\obj\Debug\net6.0\MPP_Lab1_1.csproj.CopyComplete
 E:\5 сем\СПП\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\NLog.config
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1_1.exe
-D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\NLog.config
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1_1.deps.json
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1_1.runtimeconfig.json
 D:\!Studing\3 Course\5 Sem\СПП\Labs\MPP_Lab1\MPP_Lab1\bin\Debug\net6.0\MPP_Lab1_1.dll

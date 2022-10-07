@@ -5,23 +5,24 @@ using NLog;
 
 namespace MPP_Lab1;
 
-class Program
-{
+class Program {
+
     static int copiedFilesCount = 0;
-    static int Main(string[] args)
-    {
+
+    static int Main(string[] args) {
+
         var logger = LogManager.GetCurrentClassLogger();
 
-        try
-        {
+        try {
+            
             string src = args[0];
             string dest = args[1];
-            if (Directory.Exists(src))
-            {
+            if (Directory.Exists(src)) {
+
                 string[] files = Directory.GetFiles(src, "*.*", SearchOption.AllDirectories);
                 TaskQueue taskQueue = new TaskQueue(files.Length);
-                foreach (string file in files)
-                {
+                foreach (string file in files) {
+
                     taskQueue.taskEnqueue(() => { CopyFile(file, dest); });
                 }
 
@@ -31,26 +32,23 @@ class Program
                 Console.WriteLine($"Count of copied files is {copiedFilesCount}\n");
                 Console.ReadLine();
             }
-            else
-            {
+            else {
+
                 Console.WriteLine("Directory doesnt exists");
                 return 1;
             }
             return 0;
         }
-        catch (Exception ex)
-        {
+        catch (Exception ex) {
+
             logger.Error(ex, "Stopped program because of exception");
             throw;
         }
-        finally
-        {
-            LogManager.Shutdown();
-        }  
+        finally { LogManager.Shutdown(); }  
     }
 
-    public static void CopyFile(string file, string dest)
-    {
+    public static void CopyFile(string file, string dest) {
+
         FileInfo fi = new FileInfo(file);
         fi.CopyTo(Path.Combine(dest, fi.Name), true);
         copiedFilesCount++;
