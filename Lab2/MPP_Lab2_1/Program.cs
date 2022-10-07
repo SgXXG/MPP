@@ -1,37 +1,38 @@
 ﻿using System;
 using System.Threading;
 
-namespace Lab2_1
-{
-    class Mutex
-    {
-        private int _holderId = -1;
+namespace Lab2_1 {
+    
+    class Mutex {
+        
+        int value;
 
-        public void Lock()
-        {
-            var id = Thread.CurrentThread.ManagedThreadId;
-            while (Interlocked.CompareExchange(ref _holderId, id, -1) != -1)
-            {
-                Thread.Sleep(10);
-            }
+        public Mutex(int value) {
+            
+            this.value = value;
         }
 
-        public void Unlock()
-        {
-            var id = Thread.CurrentThread.ManagedThreadId;
-            Interlocked.CompareExchange(ref _holderId, -1, id);
+        public void Lock() {
+            
+            while (Interlocked.CompareExchange(ref value, 1, 0) == 1) { }
+        }
+
+        public void Unlock() {
+            
+            Interlocked.Exchange(ref value, 0);
         }
     }
 
-    static class Program
-    {
-        static void Main(string[] args)
-        {
-            var mutex = new Mutex();
-            for (var i = 0; i < 10; i++)
-            {
-                new Thread(() =>
-                {
+    static class Program {
+        
+        static void Main(string[] args) {
+          
+            var mutex = new Mutex(0);
+
+            for (var i = 0; i < 10; i++) {
+               
+                new Thread(() => {
+                    
                     mutex.Lock();
                     Console.WriteLine("Thread #" + Thread.CurrentThread.ManagedThreadId + " locked mutex.");
                     Thread.Sleep(400);
@@ -39,8 +40,6 @@ namespace Lab2_1
                     mutex.Unlock();
                 }).Start();
             }
-
-            Console.ReadLine();
         }
     }
 }

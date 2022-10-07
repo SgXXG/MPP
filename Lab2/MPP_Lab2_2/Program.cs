@@ -1,55 +1,80 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Мусор
-{
-    class OsHandle : IDisposable
-    {
-        [DllImport("Kernel32.dll")]
-        private static extern bool CloseHandle(IntPtr handle);
+namespace Lab2_2 {
 
-        private bool _disposed = false;
-        public IntPtr Handle { get; set; }
+    class OsHandle : IDisposable {
+        
+        private int handle;
+        private bool disposed = false;
 
-        public OsHandle()
-        {
-            Handle = IntPtr.Zero;
+        public OsHandle(int handle) {
+            
+            this.handle = handle;
         }
 
-        ~OsHandle()
-        {
+        public int Handle {
+
+            set { handle = value; }
+            get {
+                
+                if (disposed) {
+                    
+                    throw new ObjectDisposedException(nameof(handle));
+                }
+                
+                return this.handle;
+            }
+        }
+
+        ~OsHandle() {
+            
             Dispose(false);
         }
 
-        public void Dispose()
-        {
+        public void Dispose() {
+           
             Dispose(true);
             GC.SuppressFinalize(this);
         }
 
-        public void Close()
-        {
-            Dispose();
+        protected virtual void Dispose(bool disposing) {
+            
+            if (disposed) return;
+
+            if (disposing) { ReleaseManageResourses(); }
+
+            ReleaseUnmanageResourses(Handle);
+            disposed = true;
         }
 
-        protected virtual void Dispose(bool disposing)
-        {
-            lock (this)
-            {
-                if (!_disposed && Handle != IntPtr.Zero)
-                {
-                    CloseHandle(Handle);
-                    Handle = IntPtr.Zero;
-                }
-                _disposed = true;
-            }
+        protected void ReleaseUnmanageResourses(int handle) {
+           
+            ReleaseHandle(handle);
+        }
+
+        protected void ReleaseHandle(int handle) {
+           
+            Console.WriteLine($"Handle {handle} is released");
+        }
+
+        protected void ReleaseManageResourses() {
+          
+            Console.WriteLine("Manage resourses has been released");
         }
     }
 
-    static class Program
-    {
-        static void Main(string[] args)
-        {
+    static class Program {
+
+        static void Main(string[] args) {
+            
+            var osHandle = new OsHandle(100);
+
+            // work with handle
+            Console.WriteLine("Working with osHandle...");
+            //Release resourses
+            GC.Collect();
+            osHandle.Dispose();
         }
     }
 }
