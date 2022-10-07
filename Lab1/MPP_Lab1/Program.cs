@@ -11,19 +11,19 @@ class Program {
         var logger = LogManager.GetCurrentClassLogger();
 
         try {
-            
+
             Console.WriteLine("Enter the number of threads: ");
             if (!int.TryParse(Console.ReadLine(), out int threads)) {
 
-                Console.WriteLine("Input error");
+                Console.WriteLine("Ошибка ввода");
                 logger.Error("Stopped program because of exception");
                 return -1;
             }
 
             Console.WriteLine("Enter the number of tasks: ");
-            if (!int.TryParse(Console.ReadLine(), out int tasks))  {
+            if (!int.TryParse(Console.ReadLine(), out int tasks)) {
 
-                Console.WriteLine("Input error");
+                Console.WriteLine("Ошибка ввода");
                 logger.Error("Stopped program because of exception");
                 return 1;
             }
@@ -35,20 +35,16 @@ class Program {
                 taskQueue.taskEnqueue(() => Console.WriteLine($"Hello from {Thread.CurrentThread.Name}"));
             }
 
-            Console.ReadLine();
-
             taskQueue.Abort();
             taskQueue.Wait();
 
             return 0;
         }
-
         catch (Exception ex) {
 
             logger.Error(ex, "Stopped program because of exception");
             throw;
         }
-
         finally { LogManager.Shutdown(); }
             
     }

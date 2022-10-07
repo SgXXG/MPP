@@ -8,13 +8,13 @@ namespace MPP_Lab1;
 class Program {
 
     static int copiedFilesCount = 0;
-
+    
     static int Main(string[] args) {
 
         var logger = LogManager.GetCurrentClassLogger();
 
         try {
-            
+
             string src = args[0];
             string dest = args[1];
             if (Directory.Exists(src)) {
@@ -44,11 +44,10 @@ class Program {
             logger.Error(ex, "Stopped program because of exception");
             throw;
         }
-        finally { LogManager.Shutdown(); }  
+        finally { LogManager.Shutdown(); }
     }
 
     public static void CopyFile(string file, string dest) {
-
         FileInfo fi = new FileInfo(file);
         fi.CopyTo(Path.Combine(dest, fi.Name), true);
         copiedFilesCount++;

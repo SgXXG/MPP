@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\Labs\\MPP_Lab1\\MPP_Lab1_2\\MPP_Lab1_2.csproj",
+      "projectUniqueName": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\MPP_Lab1\\MPP_Lab1_2\\MPP_Lab1_2.csproj",
       "projectName": "MPP_Lab1_2",
-      "projectPath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\Labs\\MPP_Lab1\\MPP_Lab1_2\\MPP_Lab1_2.csproj",
+      "projectPath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\MPP_Lab1\\MPP_Lab1_2\\MPP_Lab1_2.csproj",
       "packagesPath": "C:\\Users\\garku\\.nuget\\packages\\",
-      "outputPath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\Labs\\MPP_Lab1\\MPP_Lab1_2\\obj\\",
+      "outputPath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\MPP_Lab1\\MPP_Lab1_2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -95,8 +95,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\!Studing\\3 Course\\5 Sem\\СПП\\Labs\\MPP_Lab1\\MPP_Lab1\\MPP_Lab1_1.csproj": {
-              "projectPath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\Labs\\MPP_Lab1\\MPP_Lab1\\MPP_Lab1_1.csproj"
+            "D:\\!Studing\\3 Course\\5 Sem\\СПП\\MPP_Lab1\\MPP_Lab1\\MPP_Lab1_1.csproj": {
+              "projectPath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\MPP_Lab1\\MPP_Lab1\\MPP_Lab1_1.csproj"
             }
           }
         }

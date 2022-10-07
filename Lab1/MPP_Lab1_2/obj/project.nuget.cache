@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n5IJ6Ks2xjmbrYUDOl/hGcn4OBy1OcbkGLuHUiHT+AHlxWBuoD1MaDSLHN/YH/gXime8G2wGhauVrJw+Cp4TZQ==",
+  "dgSpecHash": "tes61e3t3FevWTFEw8n9I3HLm5V5DVWBUqpH3LQk1I409p5ltqCpRf5VpC3/3DMKRqYfGEJQ6bvugBtZdM5dig==",
   "success": true,
-  "projectFilePath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\Labs\\MPP_Lab1\\MPP_Lab1_2\\MPP_Lab1_2.csproj",
+  "projectFilePath": "D:\\!Studing\\3 Course\\5 Sem\\СПП\\MPP_Lab1\\MPP_Lab1_2\\MPP_Lab1_2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\garku\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512"
   ],
