@@ -19,6 +19,7 @@
             }
         }
  
+        // Add task to thread
         public void taskEnqueue(delegateTask task) { tasks.Enqueue(task); }
 
         public void threadTask() {
@@ -45,6 +46,7 @@
 
         public void Abort() {
 
+            // Make this thread not background
             while(tasks.Count > 0) { }
             foreach (Thread thread in threads)
                 thread.IsBackground = false;
@@ -52,6 +54,7 @@
 
         public void Wait() {
 
+            // Block this thread
             foreach (Thread thread in threads)
                 thread.Join();
         }

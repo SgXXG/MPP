@@ -21,3 +21,26 @@ E:\5 сем\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.genruntimecon
 E:\5 сем\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\ref\MPP_Lab1_2.dll
 E:\5 сем\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\NLog.dll
 E:\5 сем\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\NLog.config
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_1.deps.json
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_1.runtimeconfig.json
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_1.exe
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.exe
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\NLog.config
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.deps.json
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.runtimeconfig.json
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.dll
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_2.pdb
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\NLog.dll
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_1.dll
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\bin\Debug\net6.0\MPP_Lab1_1.pdb
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.csproj.AssemblyReference.cache
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.AssemblyInfoInputs.cache
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.AssemblyInfo.cs
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.csproj.CoreCompileInputs.cache
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.csproj.CopyComplete
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.dll
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\refint\MPP_Lab1_2.dll
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.pdb
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\MPP_Lab1_2.genruntimeconfig.cache
+D:\!Studing\3 Course\5 Sem\СПП\MPP_Lab1\MPP_Lab1_2\obj\Debug\net6.0\ref\MPP_Lab1_2.dll
