@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MPP_Lab5/1.0.0": {
+        "runtime": {
+          "MPP_Lab5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MPP_Lab5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
